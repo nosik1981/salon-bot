@@ -7,7 +7,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from aiohttp import web
 
-TOKEN = os.environ.get("TELEGRAM_TOKEN", "8941088978:AAGNn14TGxTjeG8da0vOV0md3noE06O3tU")
+# Токен прописан прямо здесь
+TOKEN = "8941088978:AAG_NSYqzv1mLdLtpbR7EGvgRSU3oPLR4pY"
 RENDER_URL = "https://salon-bot-d0h8.onrender.com"
 
 bot = Bot(token=TOKEN)
@@ -65,7 +66,7 @@ async def services_handler(message: types.Message):
 @dp.message(F.text == "📞 Контакты")
 async def contacts_handler(message: types.Message):
     await message.answer(
-        "📍 Адрес: ул. Примерная, 1\n📞 Телефон: +7 700 000 00 00\n🕐 Работаем: 9:00–21:00"
+        "📍 Адрес: ул. Мустафина 18\n📞 Телефон: +7 707 700 70 70\n🕐 Работаем: 9:00–21:00"
     )
 
 
