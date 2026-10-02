@@ -30,7 +30,7 @@ SERVICES = [
     {"name": "🌿 Обёртывание", "price": 2500, "desc": "Водорослевое, грязевое или шоколадное"},
 ]
 
-ADMIN_ID = 644259377
+ADMIN_ID = 644250377
 
 
 class BookingStates(StatesGroup):
