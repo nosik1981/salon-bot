@@ -8,7 +8,7 @@ from aiogram.fsm.context import FSMContext
 from aiohttp import web
 
 # Токен прописан прямо здесь
-TOKEN = "8909454358:AAE4hi5WyJhhlQe0Ko8gY5WzLCyNgoOt7L8"
+TOKEN = "8740329347:AAFzkG5M31-0XxndEsuUvXmwGdyBAeqw5sk"
 RENDER_URL = "https://salon-bot-d0h8.onrender.com"
 
 bot = Bot(token=TOKEN)
